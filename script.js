@@ -9,7 +9,7 @@ const SoundPlayer = {
 };
 
 // Configurable settings
-let config = { prep: 10, work: 180, rest: 60, totalRounds: 5 };
+let config = { prep: 10, work: 180, rest: 60, totalRounds: 7 };
 
 let timeLeft = config.work;
 let round = 1;

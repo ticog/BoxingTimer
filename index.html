@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Muay Thai Timer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <a href="#" class="settings-icon" onclick="toggleSettings()">⚙️</a>
+
+    <div class="card">
+        <div id="round-display">Round 1/5</div>
+        <div id="timer">03:00</div>
+        <div id="status-text">Ready</div>
+    </div>
+
+    <div class="card controls">
+        <button class="btn" style="width: 80px; height: 80px;" onclick="toggleTimer()">
+            <div id="btnIcon" class="play-icon"></div>
+        </button>
+        <button class="btn" style="width: 60px; height: 60px;" onclick="resetTimer()">
+            <div class="stop-icon"></div>
+        </button>
+    </div>
+
+    <div id="settings-modal">
+        <h2>Settings</h2>
+        <div class="setting-item">
+            <label>Warm-up (Seconds)</label>
+            <input type="number" id="input-prep" value="10">
+        </div>
+        <div class="setting-item">
+            <label>Round Time (Seconds)</label>
+            <input type="number" id="input-work" value="180">
+        </div>
+        <div class="setting-item">
+            <label>Rest Time (Seconds)</label>
+            <input type="number" id="input-rest" value="60">
+        </div>
+        <div class="setting-item">
+            <label>Total Rounds</label>
+            <input type="number" id="input-rounds" value="5">
+        </div>
+        <button id="save-btn" onclick="saveSettings()">SAVE & RESET</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -8,12 +8,6 @@ A professional-grade boxing and Muay Thai timer for interval training.
 - **Audio Alerts**: Professional sound triggers at the start and end of every round.
 - **Glassmorphism UI**: A modern, premium design with blur effects and vibrant colors.
 
-## How to Use
-1. Open `index.html` in any modern web browser.
-2. Use the settings (⚙️) icon to configure your workout.
-3. Click "SAVE & RESET" to apply settings.
-4. Press the Play button to start your training!
-
 ## Project Structure
 - `index.html`: Main structure.
 - `style.css`: Modern styling and animations.
